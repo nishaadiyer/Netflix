@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <style>
+    	selector {
+color: white;
+}
+    </style>
+</head>
+<body style = "background-color:black">
+
+<div class = "navbar navbar-inverse navbar-static-top">
+<div class = "container">
+	<a href style = "color:white" "#" class = "navbar-brand">NETFLIX</a>
+
+	<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+		<span class = "icon-bar"></span>
+<span class = "icon-bar"></span>
+<span class = "icon-bar"></span>
+
+	</button>
+
+	<div class = "collapse navbar-collapse navHeaderCollapse">
+
+		<ul class = "nav navbar-nav navbar-right">
+
+			<li class = "active"><a href = "index.htm">Home</a></li>
+			<li><a href = "plans.htm">Plans</a></li>
+			<li class = "dropdown">
+
+				<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
+				<ul class = "dropdown-menu">
+					<li><a href = "https://www.instagram.com/netflix/">Instagram</a></li>
+					<li><a href = "https://x.com/netflix">X</a></li>
+					<li><a href = "https://www.youtube.com/@Netflix">YouTube</a></li>
+
+			</ul>
+			<li><a href = "kids.htm">Kids</a></li>
+			<li><a href = "#contact" data-toggle="modal">Contact us</a></li>
+		</div>
+	</div>
+</div>
+<div class = "container">
+<div class = "row">
+
+	<div class = "col-lg-9">
+
+		<div class = "panel panel-default">
+
+			<div class = "panel-body">
+
+				<div class = "page-header">
+
+					<h3>Families with kids<small>         Last updated: 7/11/224</small></h3>
+				</div>
+
+				<center><img class = "featuredImg" src = "kids.png" width = "60%">
+
+				
+
+				<center><h2>Create profiles for kids</h2>
+
+				<p>
+Send kids on adventures with their favorite characters in a space made just for them—free with your membership.
+<br>
+<br>
+In Netflix Kids, parents can find several features designed to enhance children's viewing experience:
+<br>
+<br>
+<ul>Kid-Friendly Interface: The interface is simplified and visually engaging, making it easy for kids to navigate independently.</ul>
+<br>
+<br>
+<ul>Parental Controls: Robust parental controls allow parents to set viewing restrictions based on age ratings and block specific shows or movies.</ul>
+<br>
+<br>
+<ul>Personalized Profiles: Each child can have their own profile with personalized recommendations and settings tailored to their age group.</ul>
+<br>
+<br>
+<ul>Safe Viewing Environment: Content is curated to ensure age-appropriate viewing, with a focus on educational and family-friendly programming.</ul>
+<br>
+<br>
+<ul>Download Options: Kids can download their favorite shows and movies for offline viewing, ideal for travel or areas with limited internet access.</ul>
+<br>
+<br>
+<ul>Interactive Features: Some content includes interactive elements or games that engage children while they watch.</ul>
+<br>
+<br>
+<ul>These features combine to create a safe, engaging, and educational entertainment experience for young viewers on Netflix Kids.</ul>
+			</div>
+		</div>
+
+	</div>
+	<div class = "col-lg-3">
+		<div class = "list-group">
+			
+			<a href = "https://www.netflix.com/signup/planform" class = "list-group-item">
+				<h4 class = "list-group-item-heading">Basic plan</h4>
+				<p class = "list-group-item-text">The Netflix Basic Plan offers an affordable option for streaming movies and TV shows in standard definition on one device at a time. It is ideal for individuals or small households who do not need HD viewing or multiple simultaneous streams, providing access to Netflix's extensive content library at a lower cost.</p>
+			</a>
+			<a href = "https://www.netflix.com/signup/planform" class = "list-group-item">
+				<h4 class = "list-group-item-heading">Standard plan</h4>
+				<p class = "list-group-item-text">
+The Netflix Standard Plan provides HD streaming and allows simultaneous viewing on two devices. It caters to households and viewers who prefer clearer picture quality and the flexibility to watch different content on multiple screens at the same time. This plan is suitable for families or individuals who value high-definition entertainment and the convenience of shared viewing experiences.</p>
+			</a>
+			<a href = "https://www.netflix.com/signup/planform" class = "list-group-item">
+				<h4 class = "list-group-item-heading">Premium plan</h4>
+				<p class = "list-group-item-text">The Netflix Premium Plan provides Ultra HD (4K) streaming and supports up to four simultaneous streams, catering to users who prioritize high-quality video and multi-device access for families or groups.</p>
+			</a>
+	</div>
+	</div>
+</div>
+</div>
+
+<div class = "navbar navbar-default navbar-fixed-bottom">
+<p class = "navbar-text pull-left">Site built by Nishaad</p>
+<a href =  "https://www.youtube.com/@Netflix" a class = "navbar-btn btn-danger btn pull-right">Subscribe on YouTube</a>
+</div>
+<div class = "modal fade" id = "contact" role = "dialog">
+<div class = "modal-dialog">
+	<div class = "modal-content">
+		<form class = "form-horizontal">
+		<div class = "modal-header">
+			<center><h4>Contact Netflix</h4></center>
+		</div>
+<div class = "modal-body">
+<div class = "form-group">
+
+<label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
+	<div class = "col-lg-10">
+<input type = "text" class = "form-control" id = "contact-name" placeholder= "Full Name">
+	</div>
+</div>
+
+<div class = "form-group">
+
+<label for = "contact-email" class = "col-lg-2 control-label">Email:</label>
+	<div class = "col-lg-10">
+<input type = "email" class = "form-control" id = "contact-email" placeholder= "Email Address">
+	</div>
+</div>
+<div class = "form-group">
+
+<label for = "contact-msg" class = "col-lg-2 control-label">Message:</label>
+	<div class = "col-lg-10">
+<textarea class = "form-control" rows = "8"></textarea>
+</div>
+
+
+
+</div>
+</div>
+<div class = "modal-footer">
+	<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+	<button class = "btn btn-primary" type = "submit">Send</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>

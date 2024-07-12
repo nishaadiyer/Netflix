@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+
+<div class = "navbar navbar-inverse navbar-static-top">
+<div class = "container">
+	<a href = "#" class = "navbar-brand">Netflix</a>
+
+	<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+		<span class = "icon-bar"></span>
+<span class = "icon-bar"></span>
+<span class = "icon-bar"></span>
+
+	</button>
+
+	<div class = "collapse navbar-collapse navHeaderCollapse">
+
+		<ul class = "nav navbar-nav navbar-right">
+
+			<li class = "active"><a href = "index.htm">Home</a></li>
+			<li><a href = "plans.htm">Plans</a></li>
+			<li class = "dropdown">
+
+				<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b></a>
+				<ul class = "dropdown-menu">
+					<li><a href = "https://www.instagram.com/netflix/">Instagram</a></li>
+					<li><a href = "https://x.com/netflix">X</a></li>
+					<li><a href = "https://www.youtube.com/@Netflix">YouTube</a></li>
+
+			</ul>
+			<li><a href = "kids.htm">Kids</a></li>
+			<li><a href = "#contact" data-toggle="modal">Contact us</a></li>
+</div>
+</div>
+</div>
+
+<div class = "container">
+
+ <div class style = "background: black;" jumbotron>
+
+<center><h1>Welcome!</h1>
+<center><font size = "+2"><p>We offer endless movies and TV shows across our app!</p></font>
+<a href = "https://www.netflix.com/signup?locale=en-US" class = "btn btn-default">Choose your plan</a>
+<a href = "https://www.netflix.com/" class = "btn btn-danger">Start binging!</a></center>
+ </div>
+</div>
+
+<div class = "container">
+<center><img src = "poop.jpeg"
+img width = "60%"
+img height = "10%">
+
+	<div class = "row">
+
+		<div class = "col-md-3">
+
+			<h3><a href = "#">Costs</a></h3>
+
+			<p>Netflix provides various subscription plans to cater to different preferences. The basic plan is budget-friendly and allows streaming on one device in standard definition. The standard plan enables HD streaming on two devices at the same time, and the premium plan offers Ultra HD (4K) streaming on up to four devices simultaneously. All plans come with the flexibility of no contracts or cancellation fees, and new subscribers typically have the opportunity to start with a free trial period to explore the service.</p>
+			<a href = "plans.htm" class = "btn btn-default">Read more</a>
+		</div>
+
+			<div class = "col-md-3">
+
+			<h3><a href = "#">Devices</a></h3>
+
+			<p>
+Watch Netflix on smart TVs: Samsung, LG, Sony
+<br>
+<br>
+Stream using devices: Roku, Chromecast, Fire TV Stick
+<br>
+<br>
+Play on gaming consoles: PlayStation, Xbox
+<br>
+<br>
+View on mobile devices: iOS, Android
+<br>
+<br>
+Access via web browsers: Chrome, Safari, Firefox, Edge</p>
+			
+		</div><div class = "col-md-3">
+
+			<h3><a href = "kids.htm">Kids</a></h3>
+
+			<p>Wide variety of shows and movies suitable for kids of different ages
+				<br>
+				<br>
+Dedicated profiles designed specifically for kids
+<br>
+<br>
+Kids section with popular animated series, educational shows, and family-friendly films
+<br>
+<br>
+Parental controls available to manage viewing content
+<br>
+<br>
+Works on smart TVs, tablets, smartphones, and gaming consoles
+<br>
+<br>
+Ensures a safe and enjoyable viewing experience
+
+
+
+</p>
+			<a href = "kids.htm" class = "btn btn-default">Read more</a>
+		</div><div class = "col-md-3">
+
+			<h3><a href = "#">Contact us!</a></h3>
+
+			<p>For assistance, Netflix offers a Help Center with FAQs and troubleshooting tips online or through their app. You can also reach customer support via 24/7 live chat, social media platforms like Twitter and Facebook, or a dedicated phone line for billing and account inquiries.</p>
+			<a href = "contact.htm" class = "btn btn-default">Read more</a>
+		</div>
+<div class = "navbar navbar-default navbar-fixed-bottom">
+<p class = "navbar-text pull-left">Site built by Nishaad</p>
+<a href =  "https://www.youtube.com/@Netflix" a class = "navbar-btn btn-danger btn pull-right">Subscribe on YouTube</a>
+</div>
+
+<div class = "modal fade" id = "contact" role = "dialog">
+<div class = "modal-dialog">
+	<div class = "modal-content">
+		<form class = "form-horizontal">
+		<div class = "modal-header">
+			<center><h4>Contact Netflix</h4></center>
+</div>
+<div class = "modal-body">
+<div class = "form-group">
+
+<label for = "contact-name" class = "col-lg-2 control-label">Name:</label>
+	<div class = "col-lg-10">
+<input type = "text" class = "form-control" id = "contact-name" placeholder= "Full Name">
+	</div>
+</div>
+
+<div class = "form-group">
+
+<label for = "contact-email" class = "col-lg-2 control-label">Email:</label>
+	<div class = "col-lg-10">
+<input type = "email" class = "form-control" id = "contact-email" placeholder= "Email Address">
+	</div>
+</div>
+<div class = "form-group">
+
+<label for = "contact-msg" class = "col-lg-2 control-label">Message:</label>
+	<div class = "col-lg-10">
+<textarea class = "form-control" rows = "8"></textarea>
+</div>
+
+
+</div>
+</div>
+
+<div class = "modal-footer">
+		<a class = "btn btn-default" data-dismiss = "modal">Close</a>
+	<button class = "btn btn-primary" type = "submit">Send</button>
+</div>
+</form>
+</div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
